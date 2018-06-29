@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/addCgi/addCgi"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#666",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle":"white",
+    "enablePullDownrefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home-actived.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "其他",
+        "iconPath":"images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ],
+    "position":"bottom",
+    "borderStyle":"white",
+    "backgroundColor":"#aaa",
+    "color":"#333",
+    "selectedColor": "#000"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug":false
+}

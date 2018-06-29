@@ -1,0 +1,4 @@
+/* pages/home/home.wxss */
+.button{
+  width:200rpx;
+}
